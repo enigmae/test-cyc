@@ -16,3 +16,33 @@ else
 {
     x = 3;
 }
+
+foreach (var i in new[] { 1, 2, 3 })
+{
+    x = i;
+}
+foreach (var i in new[] { 1, 2, 3 })
+{
+    x = i;
+}
+foreach (var i in new[] { 1, 2, 3 })
+{
+    x = i;
+}
+foreach (var i in new[] { 1, 2, 3 })
+{
+    x = i;
+}
+foreach (var i in new[] { 1, 2, 3 })
+{
+    foreach (var i in new[] { 1, 2, 3 })
+    {
+        foreach (var i in new[] { 1, 2, 3 })
+        {
+            foreach (var i in new[] { 1, 2, 3 })
+            {
+                x = i;
+            }
+        }
+    }
+}
