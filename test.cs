@@ -1,11 +1,18 @@
-If (Condition 1)
-Statement 1
+var x;
+if (x < 0)
+{
+    x = 0;
+}
+else
+{
+    x = 1;
+}
 
-Else
-Statement 2
-
-If (Condition 2)
-Statement 3
-
-Else
-Statement 4
+if (x > 0)
+{
+    x = 2;
+}
+else
+{
+    x = 3;
+}
